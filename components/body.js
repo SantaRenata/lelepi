@@ -1,5 +1,15 @@
+/*
+* File: body.js
+* Author: Sánta Renáta Diána
+* Copyright: 2023, Sánta Renáta Diána
+* Group: Szoft II N
+* Date: 2023-03-06
+* Github: https://github.com/SantaRenata/
+* Licenc: GNU GPL
+*/
+
 import React from "react";
-import { Button, StyleSheet, Text, TextInput, TouchableHighlight, View } from "react-native";
+import { StyleSheet, Text, TextInput, TouchableHighlight, View } from "react-native";
 
 export default function Body(){
     const [a_edge, setA_Edge] = React.useState('');
